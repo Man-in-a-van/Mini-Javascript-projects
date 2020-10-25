@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    
+    function tileCost(width, length, price) {
+        let tiles = Math.ceil(width / 20);
+        tiles *= Math.ceil(length / 20);
+        return price * tiles;
+    }
+    console.log(tileCost(210, 250, 10));
+
+</script>
